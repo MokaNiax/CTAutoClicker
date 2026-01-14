@@ -9,6 +9,7 @@ from pynput.keyboard import Listener, KeyCode
 from customtkinter import *
 
 app = CTk()
+app.iconbitmap("logo.ico")
 app.geometry("650x400")
 app.minsize(650, 400)
 app.maxsize(650, 400)
